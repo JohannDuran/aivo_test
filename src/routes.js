@@ -65,7 +65,7 @@ async function searchVideo(search) {
             return searchRes;
         }else{
             const size = Object.keys(searchRes.items).length;
-            let dataResp = {asd:"ptm"};
+            let dataResp = {};
 
             if(size == 0){
                 dataResp = {
